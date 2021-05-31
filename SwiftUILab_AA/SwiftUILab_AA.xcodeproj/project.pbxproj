@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9139CA826653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C9526653C1B0065FEF8 /* SwiftUILab_AAApp.swift */; };
-		A9139CA926653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C9526653C1B0065FEF8 /* SwiftUILab_AAApp.swift */; };
 		A9139CAA26653C1D0065FEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C9626653C1B0065FEF8 /* ContentView.swift */; };
 		A9139CAB26653C1D0065FEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C9626653C1B0065FEF8 /* ContentView.swift */; };
 		A9139CAC26653C1D0065FEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9139C9726653C1D0065FEF8 /* Assets.xcassets */; };
@@ -111,10 +109,11 @@
 		A9139D5526655B6D0065FEF8 /* String+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5326655B6D0065FEF8 /* String+Title.swift */; };
 		A9139D5726655F3F0065FEF8 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */; };
 		A9139D5826655F3F0065FEF8 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */; };
+		A9139D5A266565FD0065FEF8 /* SwiftUILabApp.png in Resources */ = {isa = PBXBuildFile; fileRef = A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */; };
+		A9139D5B266565FD0065FEF8 /* SwiftUILabApp.png in Resources */ = {isa = PBXBuildFile; fileRef = A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9139C9526653C1B0065FEF8 /* SwiftUILab_AAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_AAApp.swift; sourceTree = "<group>"; };
 		A9139C9626653C1B0065FEF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9139C9726653C1D0065FEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9139C9C26653C1D0065FEF8 /* SwiftUILab_AA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILab_AA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +170,7 @@
 		A9139D502665599B0065FEF8 /* Example14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example14.swift; sourceTree = "<group>"; };
 		A9139D5326655B6D0065FEF8 /* String+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Title.swift"; sourceTree = "<group>"; };
 		A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftUILabApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				A9139CBD26653CEE0065FEF8 /* README.md */,
+				A9139D5C266566050065FEF8 /* Pictures */,
 				A9139C9426653C1B0065FEF8 /* Shared */,
 				A9139C9E26653C1D0065FEF8 /* iOS */,
 				A9139CA526653C1D0065FEF8 /* macOS */,
@@ -205,7 +206,6 @@
 		A9139C9426653C1B0065FEF8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				A9139C9526653C1B0065FEF8 /* SwiftUILab_AAApp.swift */,
 				A9139C9626653C1B0065FEF8 /* ContentView.swift */,
 				A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */,
 				A9139C9726653C1D0065FEF8 /* Assets.xcassets */,
@@ -414,6 +414,14 @@
 			path = Example14;
 			sourceTree = "<group>";
 		};
+		A9139D5C266566050065FEF8 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -494,6 +502,7 @@
 			files = (
 				A9139CBE26653CEE0065FEF8 /* README.md in Resources */,
 				A9139CAC26653C1D0065FEF8 /* Assets.xcassets in Resources */,
+				A9139D5A266565FD0065FEF8 /* SwiftUILabApp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +512,7 @@
 			files = (
 				A9139CBF26653CEE0065FEF8 /* README.md in Resources */,
 				A9139CAD26653C1D0065FEF8 /* Assets.xcassets in Resources */,
+				A9139D5B266565FD0065FEF8 /* SwiftUILabApp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +543,6 @@
 				A9139D1026654EC40065FEF8 /* Example9.swift in Sources */,
 				A9139D0926654E4A0065FEF8 /* FollowEffect.swift in Sources */,
 				A9139CC9266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
-				A9139CA826653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CF226654A050065FEF8 /* Example6.swift in Sources */,
 				A9139D1D266550C10065FEF8 /* PercentArcShape.swift in Sources */,
 				A9139D5726655F3F0065FEF8 /* MainNavigationView.swift in Sources */,
@@ -590,7 +599,6 @@
 				A9139D1126654EC40065FEF8 /* Example9.swift in Sources */,
 				A9139D0A26654E4A0065FEF8 /* FollowEffect.swift in Sources */,
 				A9139CCA266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
-				A9139CA926653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CF326654A050065FEF8 /* Example6.swift in Sources */,
 				A9139D1E266550C10065FEF8 /* PercentArcShape.swift in Sources */,
 				A9139D5826655F3F0065FEF8 /* MainNavigationView.swift in Sources */,

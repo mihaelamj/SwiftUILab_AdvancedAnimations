@@ -36,6 +36,6 @@ struct FlowerColorView: View {
 struct FlowerColor_Previews: PreviewProvider {
   static var previews: some View {
     let length = 120.0
-    FlowerColorView(petals: 15, length: length, color: Color.red)
+    FlowerColorView(petals: 5, length: length, color: Color.red)
   }
 }

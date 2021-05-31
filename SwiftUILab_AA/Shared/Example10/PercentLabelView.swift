@@ -20,6 +20,6 @@ struct PercentLabelView: View {
 
 struct PercentLabelView_Previews: PreviewProvider {
   static var previews: some View {
-    PercentLabelView(pct: 75)
+    PercentLabelView(pct: 0.75)
   }
 }

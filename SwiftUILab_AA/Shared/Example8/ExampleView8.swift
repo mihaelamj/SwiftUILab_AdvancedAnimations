@@ -13,6 +13,7 @@ struct ExampleView8: View {
     HStack {
       Spacer()
       RotatingCardView()
+      Spacer()
       RotatingCardView()
     }.background(Color.black)
     .modify {

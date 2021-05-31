@@ -32,9 +32,9 @@ struct Example14: View {
       Spacer()
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("14. Animated Text Color".makePlatformDependantSwiftUILabTitle())
+      $0.navigationBarTitle(String.exampleTitle(13))
       #else
-      $0.navigationTitle("14. Animated Text Color".makePlatformDependantSwiftUILabTitle())
+      $0.navigationTitle(String.exampleTitle(13))
       #endif
     }
   }

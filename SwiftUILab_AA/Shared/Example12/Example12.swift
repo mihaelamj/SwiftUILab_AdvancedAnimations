@@ -22,9 +22,9 @@ struct Example12: View {
       }
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("12. Animated Wawe Text".makePlatformDependantSwiftUILabTitle())
+      $0.navigationBarTitle(String.exampleTitle(11))
       #else
-      $0.navigationTitle("12. Animated Wawe Text".makePlatformDependantSwiftUILabTitle())
+      $0.navigationTitle(String.exampleTitle(11))
       #endif
     }
   }

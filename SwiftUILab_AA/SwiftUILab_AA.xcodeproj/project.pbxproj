@@ -109,6 +109,8 @@
 		A9139D522665599B0065FEF8 /* Example14.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D502665599B0065FEF8 /* Example14.swift */; };
 		A9139D5426655B6D0065FEF8 /* String+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5326655B6D0065FEF8 /* String+Title.swift */; };
 		A9139D5526655B6D0065FEF8 /* String+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5326655B6D0065FEF8 /* String+Title.swift */; };
+		A9139D5726655F3F0065FEF8 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */; };
+		A9139D5826655F3F0065FEF8 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,6 +170,7 @@
 		A9139D4D266558060065FEF8 /* AnimatableColorTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableColorTextModifier.swift; sourceTree = "<group>"; };
 		A9139D502665599B0065FEF8 /* Example14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example14.swift; sourceTree = "<group>"; };
 		A9139D5326655B6D0065FEF8 /* String+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Title.swift"; sourceTree = "<group>"; };
+		A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +207,7 @@
 			children = (
 				A9139C9526653C1B0065FEF8 /* SwiftUILab_AAApp.swift */,
 				A9139C9626653C1B0065FEF8 /* ContentView.swift */,
+				A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */,
 				A9139C9726653C1D0065FEF8 /* Assets.xcassets */,
 				A9139CC6266541120065FEF8 /* Util */,
 				A9139CC7266541230065FEF8 /* Common */,
@@ -532,6 +536,7 @@
 				A9139CA826653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CF226654A050065FEF8 /* Example6.swift in Sources */,
 				A9139D1D266550C10065FEF8 /* PercentArcShape.swift in Sources */,
+				A9139D5726655F3F0065FEF8 /* MainNavigationView.swift in Sources */,
 				A9139D41266555EE0065FEF8 /* YShiftEffect.swift in Sources */,
 				A9139D1A26654F770065FEF8 /* PercentLabelView.swift in Sources */,
 				A9139CEF266549620065FEF8 /* FlowerView.swift in Sources */,
@@ -588,6 +593,7 @@
 				A9139CA926653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CF326654A050065FEF8 /* Example6.swift in Sources */,
 				A9139D1E266550C10065FEF8 /* PercentArcShape.swift in Sources */,
+				A9139D5826655F3F0065FEF8 /* MainNavigationView.swift in Sources */,
 				A9139D42266555EE0065FEF8 /* YShiftEffect.swift in Sources */,
 				A9139D1B26654F770065FEF8 /* PercentLabelView.swift in Sources */,
 				A9139CF0266549620065FEF8 /* FlowerView.swift in Sources */,

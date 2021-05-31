@@ -26,9 +26,9 @@ struct Example10: View {
       }
     } .modify {
       #if os(iOS)
-      $0.navigationBarTitle("10. Circle Percent".makePlatformDependantSwiftUILabTitle())
+      $0.navigationBarTitle(String.exampleTitle(9))
       #else
-      $0.navigationTitle("10. Circle Percent".makePlatformDependantSwiftUILabTitle())
+      $0.navigationTitle(String.exampleTitle(9))
       #endif
     }
   }

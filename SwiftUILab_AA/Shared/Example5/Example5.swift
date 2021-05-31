@@ -47,9 +47,9 @@ struct Example5: View {
       }
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("05. Clock & Time".makePlatformDependantSwiftUILabTitle())
+      $0.navigationBarTitle(String.exampleTitle(4))
       #else
-      $0.navigationTitle("05. Clock & Time".makePlatformDependantSwiftUILabTitle())
+      $0.navigationTitle(String.exampleTitle(4))
       #endif
     }
   }

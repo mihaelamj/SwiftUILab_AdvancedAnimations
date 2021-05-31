@@ -13,9 +13,9 @@ struct Example6: View {
       FlowerView().drawingGroup()
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("06. Flower".makePlatformDependantSwiftUILabTitle())
+      $0.navigationBarTitle(String.exampleTitle(5))
       #else
-      $0.navigationTitle("06. Flower".makePlatformDependantSwiftUILabTitle())
+      $0.navigationTitle(String.exampleTitle(5))
       #endif
     }
     .padding(20)

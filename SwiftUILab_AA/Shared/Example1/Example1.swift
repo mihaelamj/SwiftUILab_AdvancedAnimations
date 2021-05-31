@@ -3,7 +3,7 @@
 //  SwiftUILab_AA
 //
 //  Created by Mihaela Mihaljevic Jakic on 31.05.2021..
-//  Original source: https://newbedev.com/in-swiftui-is-it-possible-to-use-a-modifier-only-for-a-certain-os-target
+//  Original ghist: (https://gist.github.com/swiftui-lab/e5901123101ffad6d39020cc7a810798)
 
 import SwiftUI
 

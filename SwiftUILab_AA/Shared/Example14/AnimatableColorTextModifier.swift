@@ -3,7 +3,7 @@
 //  SwiftUILab_AA
 //
 //  Created by Mihaela Mihaljevic Jakic on 31.05.2021..
-//
+//  Original ghist: (https://gist.github.com/swiftui-lab/e5901123101ffad6d39020cc7a810798)
 
 import SwiftUI
 

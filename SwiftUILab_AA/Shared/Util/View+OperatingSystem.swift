@@ -1,6 +1,5 @@
 //
-//  File.swift
-//  TransCalc
+//  View+OperatingSystem.swift
 //
 //  Created by Mihaela Mihaljevic Jakic on 09.05.2021..
 //  Source: https://newbedev.com/in-swiftui-is-it-possible-to-use-a-modifier-only-for-a-certain-os-target

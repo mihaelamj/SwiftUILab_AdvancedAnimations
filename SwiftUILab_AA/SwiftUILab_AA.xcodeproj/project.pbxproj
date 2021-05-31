@@ -41,20 +41,20 @@
 		A9139CE6266547270065FEF8 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE4266547270065FEF8 /* Example5.swift */; };
 		A9139CE82665478D0065FEF8 /* PetalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE72665478D0065FEF8 /* PetalShape.swift */; };
 		A9139CE92665478D0065FEF8 /* PetalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE72665478D0065FEF8 /* PetalShape.swift */; };
-		A9139CEC266548CD0065FEF8 /* FlowerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColor.swift */; };
-		A9139CED266548CD0065FEF8 /* FlowerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColor.swift */; };
+		A9139CEC266548CD0065FEF8 /* FlowerColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColorView.swift */; };
+		A9139CED266548CD0065FEF8 /* FlowerColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColorView.swift */; };
 		A9139CEF266549620065FEF8 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEE266549620065FEF8 /* FlowerView.swift */; };
 		A9139CF0266549620065FEF8 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEE266549620065FEF8 /* FlowerView.swift */; };
 		A9139CF226654A050065FEF8 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF126654A050065FEF8 /* Example6.swift */; };
 		A9139CF326654A050065FEF8 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF126654A050065FEF8 /* Example6.swift */; };
-		A9139CF526654B920065FEF8 /* SkewedOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffset.swift */; };
-		A9139CF626654B920065FEF8 /* SkewedOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffset.swift */; };
+		A9139CF526654B920065FEF8 /* SkewedOffsetEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffsetEffect.swift */; };
+		A9139CF626654B920065FEF8 /* SkewedOffsetEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffsetEffect.swift */; };
 		A9139CF926654BC00065FEF8 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF826654BC00065FEF8 /* LabelView.swift */; };
 		A9139CFA26654BC00065FEF8 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF826654BC00065FEF8 /* LabelView.swift */; };
 		A9139CFC26654C660065FEF8 /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFB26654C660065FEF8 /* Example7.swift */; };
 		A9139CFD26654C660065FEF8 /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFB26654C660065FEF8 /* Example7.swift */; };
-		A9139CFF26654D1F0065FEF8 /* RotatingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFE26654D1F0065FEF8 /* RotatingCard.swift */; };
-		A9139D0026654D1F0065FEF8 /* RotatingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFE26654D1F0065FEF8 /* RotatingCard.swift */; };
+		A9139CFF26654D1F0065FEF8 /* RotatingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFE26654D1F0065FEF8 /* RotatingCardView.swift */; };
+		A9139D0026654D1F0065FEF8 /* RotatingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFE26654D1F0065FEF8 /* RotatingCardView.swift */; };
 		A9139D0326654D440065FEF8 /* FlipEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D0226654D440065FEF8 /* FlipEffect.swift */; };
 		A9139D0426654D440065FEF8 /* FlipEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D0226654D440065FEF8 /* FlipEffect.swift */; };
 		A9139D0626654DE80065FEF8 /* Example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D0526654DE80065FEF8 /* Example8.swift */; };
@@ -138,13 +138,13 @@
 		A9139CE1266546A70065FEF8 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
 		A9139CE4266547270065FEF8 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
 		A9139CE72665478D0065FEF8 /* PetalShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalShape.swift; sourceTree = "<group>"; };
-		A9139CEB266548CD0065FEF8 /* FlowerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerColor.swift; sourceTree = "<group>"; };
+		A9139CEB266548CD0065FEF8 /* FlowerColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerColorView.swift; sourceTree = "<group>"; };
 		A9139CEE266549620065FEF8 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
 		A9139CF126654A050065FEF8 /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
-		A9139CF426654B920065FEF8 /* SkewedOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkewedOffset.swift; sourceTree = "<group>"; };
+		A9139CF426654B920065FEF8 /* SkewedOffsetEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkewedOffsetEffect.swift; sourceTree = "<group>"; };
 		A9139CF826654BC00065FEF8 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		A9139CFB26654C660065FEF8 /* Example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example7.swift; sourceTree = "<group>"; };
-		A9139CFE26654D1F0065FEF8 /* RotatingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCard.swift; sourceTree = "<group>"; };
+		A9139CFE26654D1F0065FEF8 /* RotatingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCardView.swift; sourceTree = "<group>"; };
 		A9139D0226654D440065FEF8 /* FlipEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEffect.swift; sourceTree = "<group>"; };
 		A9139D0526654DE80065FEF8 /* Example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example8.swift; sourceTree = "<group>"; };
 		A9139D0826654E4A0065FEF8 /* FollowEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowEffect.swift; sourceTree = "<group>"; };
@@ -327,7 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				A9139CE72665478D0065FEF8 /* PetalShape.swift */,
-				A9139CEB266548CD0065FEF8 /* FlowerColor.swift */,
+				A9139CEB266548CD0065FEF8 /* FlowerColorView.swift */,
 				A9139CEE266549620065FEF8 /* FlowerView.swift */,
 				A9139CF126654A050065FEF8 /* Example6.swift */,
 			);
@@ -337,7 +337,7 @@
 		A9139CF726654B970065FEF8 /* Example7 */ = {
 			isa = PBXGroup;
 			children = (
-				A9139CF426654B920065FEF8 /* SkewedOffset.swift */,
+				A9139CF426654B920065FEF8 /* SkewedOffsetEffect.swift */,
 				A9139CF826654BC00065FEF8 /* LabelView.swift */,
 				A9139CFB26654C660065FEF8 /* Example7.swift */,
 			);
@@ -348,7 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				A9139D0226654D440065FEF8 /* FlipEffect.swift */,
-				A9139CFE26654D1F0065FEF8 /* RotatingCard.swift */,
+				A9139CFE26654D1F0065FEF8 /* RotatingCardView.swift */,
 				A9139D0526654DE80065FEF8 /* Example8.swift */,
 			);
 			path = Example8;
@@ -527,13 +527,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9139CFF26654D1F0065FEF8 /* RotatingCard.swift in Sources */,
+				A9139CFF26654D1F0065FEF8 /* RotatingCardView.swift in Sources */,
 				A9139CAA26653C1D0065FEF8 /* ContentView.swift in Sources */,
 				A9139CE2266546A70065FEF8 /* ClockTime.swift in Sources */,
 				A9139CF926654BC00065FEF8 /* LabelView.swift in Sources */,
 				A9139CE82665478D0065FEF8 /* PetalShape.swift in Sources */,
 				A9139D37266554C20065FEF8 /* MovingCounterModifier.swift in Sources */,
-				A9139CF526654B920065FEF8 /* SkewedOffset.swift in Sources */,
+				A9139CF526654B920065FEF8 /* SkewedOffsetEffect.swift in Sources */,
 				A9139D4E266558060065FEF8 /* AnimatableColorTextModifier.swift in Sources */,
 				A9139CDB266544E80065FEF8 /* Example4.swift in Sources */,
 				A9139CDE2665467E0065FEF8 /* ClockShape.swift in Sources */,
@@ -572,7 +572,7 @@
 				A9139CD72665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
 				A9139D442665566E0065FEF8 /* Example13.swift in Sources */,
 				A9139D0326654D440065FEF8 /* FlipEffect.swift in Sources */,
-				A9139CEC266548CD0065FEF8 /* FlowerColor.swift in Sources */,
+				A9139CEC266548CD0065FEF8 /* FlowerColorView.swift in Sources */,
 				A9139CD42665443B0065FEF8 /* Example3.swift in Sources */,
 				A9139D5E266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CE5266547270065FEF8 /* Example5.swift in Sources */,
@@ -584,13 +584,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9139D0026654D1F0065FEF8 /* RotatingCard.swift in Sources */,
+				A9139D0026654D1F0065FEF8 /* RotatingCardView.swift in Sources */,
 				A9139CAB26653C1D0065FEF8 /* ContentView.swift in Sources */,
 				A9139CE3266546A70065FEF8 /* ClockTime.swift in Sources */,
 				A9139CFA26654BC00065FEF8 /* LabelView.swift in Sources */,
 				A9139CE92665478D0065FEF8 /* PetalShape.swift in Sources */,
 				A9139D38266554C20065FEF8 /* MovingCounterModifier.swift in Sources */,
-				A9139CF626654B920065FEF8 /* SkewedOffset.swift in Sources */,
+				A9139CF626654B920065FEF8 /* SkewedOffsetEffect.swift in Sources */,
 				A9139D4F266558060065FEF8 /* AnimatableColorTextModifier.swift in Sources */,
 				A9139CDC266544E80065FEF8 /* Example4.swift in Sources */,
 				A9139CDF2665467E0065FEF8 /* ClockShape.swift in Sources */,
@@ -629,7 +629,7 @@
 				A9139CD82665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
 				A9139D452665566E0065FEF8 /* Example13.swift in Sources */,
 				A9139D0426654D440065FEF8 /* FlipEffect.swift in Sources */,
-				A9139CED266548CD0065FEF8 /* FlowerColor.swift in Sources */,
+				A9139CED266548CD0065FEF8 /* FlowerColorView.swift in Sources */,
 				A9139CD52665443B0065FEF8 /* Example3.swift in Sources */,
 				A9139D5F266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CE6266547270065FEF8 /* Example5.swift in Sources */,

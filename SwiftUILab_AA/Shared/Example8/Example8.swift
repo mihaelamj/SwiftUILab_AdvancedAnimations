@@ -12,8 +12,8 @@ struct Example8: View {
   var body: some View {
     HStack {
       Spacer()
-      RotatingCard()
-      RotatingCard()
+      RotatingCardView()
+      RotatingCardView()
     }.background(Color.black)
     .modify {
       #if os(iOS)

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FlowerColor: View {
+struct FlowerColorView: View {
   let petals: Int
   let length: Double
   let color: Color
@@ -36,6 +36,6 @@ struct FlowerColor: View {
 struct FlowerColor_Previews: PreviewProvider {
   static var previews: some View {
     let length = 120.0
-    FlowerColor(petals: 15, length: length, color: Color.red)
+    FlowerColorView(petals: 15, length: length, color: Color.red)
   }
 }

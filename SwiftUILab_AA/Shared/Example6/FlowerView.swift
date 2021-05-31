@@ -15,7 +15,7 @@ struct FlowerView: View {
   var body: some View {
     ZStack {
       ForEach(0..<7) { i in
-        FlowerColor(petals: self.getPetals(i), length: self.getLength(i), color: self.colors[i])
+        FlowerColorView(petals: self.getPetals(i), length: self.getLength(i), color: self.colors[i])
       }
       .rotationEffect(Angle(degrees: animate ? 360 : 0))
       .onAppear {

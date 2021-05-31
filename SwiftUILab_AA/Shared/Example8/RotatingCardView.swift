@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RotatingCard: View {
+struct RotatingCardView: View {
   @State private var flipped = false
   @State private var animate3d = false
   @State private var rotate = false
@@ -49,6 +49,6 @@ struct RotatingCard: View {
 
 struct RotatingCard_Previews: PreviewProvider {
   static var previews: some View {
-    RotatingCard()
+    RotatingCardView()
   }
 }

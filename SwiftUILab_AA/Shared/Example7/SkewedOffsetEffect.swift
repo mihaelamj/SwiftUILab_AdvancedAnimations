@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SkewedOffset: GeometryEffect {
+struct SkewedOffsetEffect: GeometryEffect {
   var offset: CGFloat
   var pct: CGFloat
   let goingRight: Bool

@@ -20,7 +20,7 @@ struct LabelView: View {
       .padding(5)
       .background(RoundedRectangle(cornerRadius: 5).foregroundColor(backgroundColor))
       .foregroundColor(Color.black)
-      .modifier(SkewedOffset(offset: offset, pct: pct, goingRight: offset > 0))
+      .modifier(SkewedOffsetEffect(offset: offset, pct: pct, goingRight: offset > 0))
   }
 }
 

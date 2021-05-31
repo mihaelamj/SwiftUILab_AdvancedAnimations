@@ -12,7 +12,6 @@ struct Example4: View {
   @State private var sides: Double = 4
   @State private var scale: Double = 1.0
   
-  
   var body: some View {
     VStack {
       Example4PolygonShape(sides: sides, scale: scale)

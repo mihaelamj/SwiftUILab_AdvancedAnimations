@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 2: Polygon with sides as Integer
-struct Example2: View {
+struct ExampleView2: View {
   @State private var sides: Int = 4
   @State private var duration: Double = 1.0
   
@@ -52,6 +52,6 @@ struct Example2: View {
 
 struct Example2_Previews: PreviewProvider {
   static var previews: some View {
-    Example2()
+    ExampleView2()
   }
 }

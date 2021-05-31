@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: -
 // MARK: Part 2: Geometry Effects
 // MARK: Exmaple 6 - Skew
-struct Example7: View {
+struct ExampleView7: View {
   @State private var moveIt = false
   
   var body: some View {
@@ -53,6 +53,6 @@ struct Example7: View {
 
 struct Example7_Previews: PreviewProvider {
   static var previews: some View {
-    Example7()
+    ExampleView7()
   }
 }

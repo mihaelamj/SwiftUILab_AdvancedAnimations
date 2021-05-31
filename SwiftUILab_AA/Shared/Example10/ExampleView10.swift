@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 10
-struct Example10: View {
+struct ExampleView10: View {
   @State private var percent: CGFloat = 0
   
   var body: some View {
@@ -36,6 +36,6 @@ struct Example10: View {
 
 struct Example10_Previews: PreviewProvider {
   static var previews: some View {
-    Example10()
+    ExampleView10()
   }
 }

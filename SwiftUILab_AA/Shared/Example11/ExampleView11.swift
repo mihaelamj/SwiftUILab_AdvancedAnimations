@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 11
-struct Example11: View {
+struct ExampleView11: View {
   @State private var animate = false
   
   var body: some View {
@@ -46,6 +46,6 @@ struct Example11: View {
 
 struct Example11_Previews: PreviewProvider {
   static var previews: some View {
-    Example11()
+    ExampleView11()
   }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 9 - Follow Path
-struct Example9: View {
+struct ExampleView9: View {
   @State private var flag = false
   
   var body: some View {
@@ -45,6 +45,6 @@ struct Example9: View {
 
 struct Example9_Previews: PreviewProvider {
   static var previews: some View {
-    Example9()
+    ExampleView9()
   }
 }

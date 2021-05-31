@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - Part 1: Path Animations
 // MARK: Example 1: Polygon animatable
 
-struct Example1: View {
+struct ExampleView1: View {
   @State private var sides: Double = 4
   
   var body: some View {
@@ -54,6 +54,6 @@ struct Example1: View {
 
 struct Example1_Previews: PreviewProvider {
   static var previews: some View {
-    Example1()
+    ExampleView1()
   }
 }

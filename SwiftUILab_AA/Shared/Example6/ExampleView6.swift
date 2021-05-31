@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example6: View {
+struct ExampleView6: View {
   var body: some View {
     VStack {
       FlowerView().drawingGroup()
@@ -24,6 +24,6 @@ struct Example6: View {
 
 struct Example6_Previews: PreviewProvider {
   static var previews: some View {
-    Example6()
+    ExampleView6()
   }
 }

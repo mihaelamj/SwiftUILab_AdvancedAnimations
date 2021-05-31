@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example12: View {
+struct ExampleView12: View {
   @State private var flag = false
   
   var body: some View {
@@ -32,6 +32,6 @@ struct Example12: View {
 
 struct Example12_Previews: PreviewProvider {
   static var previews: some View {
-    Example12()
+    ExampleView12()
   }
 }

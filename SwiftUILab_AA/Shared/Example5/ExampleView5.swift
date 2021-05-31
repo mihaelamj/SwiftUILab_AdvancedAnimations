@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 5: Clock Shape
-struct Example5: View {
+struct ExampleView5: View {
   @State private var time: ClockTime = ClockTime(9, 50, 5)
   @State private var duration: Double = 2.0
   
@@ -57,6 +57,6 @@ struct Example5: View {
 
 struct Example5_Previews: PreviewProvider {
   static var previews: some View {
-    Example5()
+    ExampleView5()
   }
 }

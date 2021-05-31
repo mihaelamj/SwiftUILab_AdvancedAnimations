@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 8 - Rotating Card
-struct Example8: View {
+struct ExampleView8: View {
   var body: some View {
     HStack {
       Spacer()
@@ -27,6 +27,6 @@ struct Example8: View {
 
 struct Example8_Previews: PreviewProvider {
   static var previews: some View {
-    Example8()
+    ExampleView8()
   }
 }

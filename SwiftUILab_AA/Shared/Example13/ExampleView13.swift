@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Example 13
-struct Example13: View {
+struct ExampleView13: View {
   @State private var flag = false
   @State private var number: Double = 21
   
@@ -52,6 +52,6 @@ struct Example13: View {
 
 struct Example13_Previews: PreviewProvider {
   static var previews: some View {
-    Example13()
+    ExampleView13()
   }
 }

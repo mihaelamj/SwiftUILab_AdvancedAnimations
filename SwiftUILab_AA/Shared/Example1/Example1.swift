@@ -41,10 +41,10 @@ struct Example1: View {
         }
       }.modify {
         #if os(iOS)
-        $0.navigationBarTitle("SwiftUI Lab Mobile")
+        $0.navigationBarTitle("01. Shape Sides 1".makePlatformDependantSwiftUILabTitle())
         $0.padding(.bottom, 50)
         #else
-        $0.navigationTitle("SwiftUI Lab Destop")
+        $0.navigationTitle("01. Shape Sides 1".makePlatformDependantSwiftUILabTitle())
         $0.padding(.bottom, 60)
         #endif
       }

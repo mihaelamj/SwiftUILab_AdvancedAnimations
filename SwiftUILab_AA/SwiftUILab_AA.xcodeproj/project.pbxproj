@@ -107,6 +107,8 @@
 		A9139D4F266558060065FEF8 /* AnimatableColorTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D4D266558060065FEF8 /* AnimatableColorTextModifier.swift */; };
 		A9139D512665599B0065FEF8 /* Example14.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D502665599B0065FEF8 /* Example14.swift */; };
 		A9139D522665599B0065FEF8 /* Example14.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D502665599B0065FEF8 /* Example14.swift */; };
+		A9139D5426655B6D0065FEF8 /* String+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5326655B6D0065FEF8 /* String+Title.swift */; };
+		A9139D5526655B6D0065FEF8 /* String+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5326655B6D0065FEF8 /* String+Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +167,7 @@
 		A9139D49266557EC0065FEF8 /* AnimatableColorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableColorTextView.swift; sourceTree = "<group>"; };
 		A9139D4D266558060065FEF8 /* AnimatableColorTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableColorTextModifier.swift; sourceTree = "<group>"; };
 		A9139D502665599B0065FEF8 /* Example14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example14.swift; sourceTree = "<group>"; };
+		A9139D5326655B6D0065FEF8 /* String+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Title.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +265,7 @@
 			children = (
 				A9139CC3266540580065FEF8 /* View+OperatingSystem.swift */,
 				A9139D2D266553A10065FEF8 /* Double+Angle.swift */,
+				A9139D5326655B6D0065FEF8 /* String+Title.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -542,6 +546,7 @@
 				A9139CFC26654C660065FEF8 /* Example7.swift in Sources */,
 				A9139D4A266557EC0065FEF8 /* AnimatableColorTextView.swift in Sources */,
 				A9139D47266557320065FEF8 /* MovingCounterView.swift in Sources */,
+				A9139D5426655B6D0065FEF8 /* String+Title.swift in Sources */,
 				A9139D27266552E10065FEF8 /* Example11.swift in Sources */,
 				A9139CBA26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139D23266552A20065FEF8 /* AnimatableGradientModifier.swift in Sources */,
@@ -597,6 +602,7 @@
 				A9139CFD26654C660065FEF8 /* Example7.swift in Sources */,
 				A9139D4B266557EC0065FEF8 /* AnimatableColorTextView.swift in Sources */,
 				A9139D48266557320065FEF8 /* MovingCounterView.swift in Sources */,
+				A9139D5526655B6D0065FEF8 /* String+Title.swift in Sources */,
 				A9139D28266552E10065FEF8 /* Example11.swift in Sources */,
 				A9139CBB26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139D24266552A20065FEF8 /* AnimatableGradientModifier.swift in Sources */,

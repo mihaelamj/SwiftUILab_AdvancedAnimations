@@ -47,9 +47,9 @@ struct Example5: View {
       }
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("SwiftUI Lab Mobile")
+      $0.navigationBarTitle("05. Clock & Time".makePlatformDependantSwiftUILabTitle())
       #else
-      $0.navigationTitle("SwiftUI Lab Desktop")
+      $0.navigationTitle("05. Clock & Time".makePlatformDependantSwiftUILabTitle())
       #endif
     }
   }

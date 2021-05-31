@@ -42,9 +42,9 @@ struct Example13: View {
     }.overlay(MovingCounterView(number: number))
     .modify {
       #if os(iOS)
-      $0.navigationBarTitle("SwiftUI Lab Mobile")
+      $0.navigationBarTitle("13. Moving Counter".makePlatformDependantSwiftUILabTitle())
       #else
-      $0.navigationTitle("SwiftUI Lab Desktop")
+      $0.navigationTitle("13. Moving Counter".makePlatformDependantSwiftUILabTitle())
       #endif
     }
   }

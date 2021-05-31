@@ -43,9 +43,9 @@ struct Example7: View {
     .onTapGesture { self.moveIt.toggle()
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("SwiftUI Lab Mobile - Example 7")
+      $0.navigationBarTitle("07. Drunk Labels".makePlatformDependantSwiftUILabTitle())
       #else
-      $0.navigationTitle("SwiftUI Lab Desktop - Example 7")
+      $0.navigationTitle("07. Drunk Labels".makePlatformDependantSwiftUILabTitle())
       #endif
     }
   }

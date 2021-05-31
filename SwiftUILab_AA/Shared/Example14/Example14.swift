@@ -32,9 +32,9 @@ struct Example14: View {
       Spacer()
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("SwiftUI Lab Mobile")
+      $0.navigationBarTitle("14. Animated Text Color".makePlatformDependantSwiftUILabTitle())
       #else
-      $0.navigationTitle("SwiftUI Lab Desktop")
+      $0.navigationTitle("14. Animated Text Color".makePlatformDependantSwiftUILabTitle())
       #endif
     }
   }

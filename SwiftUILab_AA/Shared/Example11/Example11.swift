@@ -36,9 +36,9 @@ struct Example11: View {
       }
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle("SwiftUI Lab Mobile")
+      $0.navigationBarTitle("11. Animated Gradients".makePlatformDependantSwiftUILabTitle())
       #else
-      $0.navigationTitle("SwiftUI Lab Desktop")
+      $0.navigationTitle("11. Animated Gradients".makePlatformDependantSwiftUILabTitle())
       #endif
     }
   }

@@ -1,4 +1,4 @@
-# SwiftUILab_AdvancedAnimations
+# SwiftUILab Advanced Animations on the Mac as well
 
 A port of SwiftUILab's Advanced Animations that also supports `macOS`
 

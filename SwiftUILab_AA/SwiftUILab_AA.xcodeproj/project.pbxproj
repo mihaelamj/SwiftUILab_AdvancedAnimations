@@ -35,6 +35,26 @@
 		A9139CD82665449E0065FEF8 /* Example4PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */; };
 		A9139CDB266544E80065FEF8 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDA266544E80065FEF8 /* Example4.swift */; };
 		A9139CDC266544E80065FEF8 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDA266544E80065FEF8 /* Example4.swift */; };
+		A9139CDE2665467E0065FEF8 /* ClockShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDD2665467E0065FEF8 /* ClockShape.swift */; };
+		A9139CDF2665467E0065FEF8 /* ClockShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDD2665467E0065FEF8 /* ClockShape.swift */; };
+		A9139CE2266546A70065FEF8 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE1266546A70065FEF8 /* ClockTime.swift */; };
+		A9139CE3266546A70065FEF8 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE1266546A70065FEF8 /* ClockTime.swift */; };
+		A9139CE5266547270065FEF8 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE4266547270065FEF8 /* Example5.swift */; };
+		A9139CE6266547270065FEF8 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE4266547270065FEF8 /* Example5.swift */; };
+		A9139CE82665478D0065FEF8 /* PetalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE72665478D0065FEF8 /* PetalShape.swift */; };
+		A9139CE92665478D0065FEF8 /* PetalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CE72665478D0065FEF8 /* PetalShape.swift */; };
+		A9139CEC266548CD0065FEF8 /* FlowerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColor.swift */; };
+		A9139CED266548CD0065FEF8 /* FlowerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEB266548CD0065FEF8 /* FlowerColor.swift */; };
+		A9139CEF266549620065FEF8 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEE266549620065FEF8 /* FlowerView.swift */; };
+		A9139CF0266549620065FEF8 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CEE266549620065FEF8 /* FlowerView.swift */; };
+		A9139CF226654A050065FEF8 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF126654A050065FEF8 /* Example6.swift */; };
+		A9139CF326654A050065FEF8 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF126654A050065FEF8 /* Example6.swift */; };
+		A9139CF526654B920065FEF8 /* SkewedOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffset.swift */; };
+		A9139CF626654B920065FEF8 /* SkewedOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF426654B920065FEF8 /* SkewedOffset.swift */; };
+		A9139CF926654BC00065FEF8 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF826654BC00065FEF8 /* LabelView.swift */; };
+		A9139CFA26654BC00065FEF8 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CF826654BC00065FEF8 /* LabelView.swift */; };
+		A9139CFC26654C660065FEF8 /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFB26654C660065FEF8 /* Example7.swift */; };
+		A9139CFD26654C660065FEF8 /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CFB26654C660065FEF8 /* Example7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +77,16 @@
 		A9139CD32665443B0065FEF8 /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
 		A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4PolygonShape.swift; sourceTree = "<group>"; };
 		A9139CDA266544E80065FEF8 /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
+		A9139CDD2665467E0065FEF8 /* ClockShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockShape.swift; sourceTree = "<group>"; };
+		A9139CE1266546A70065FEF8 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
+		A9139CE4266547270065FEF8 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
+		A9139CE72665478D0065FEF8 /* PetalShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalShape.swift; sourceTree = "<group>"; };
+		A9139CEB266548CD0065FEF8 /* FlowerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerColor.swift; sourceTree = "<group>"; };
+		A9139CEE266549620065FEF8 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		A9139CF126654A050065FEF8 /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
+		A9139CF426654B920065FEF8 /* SkewedOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkewedOffset.swift; sourceTree = "<group>"; };
+		A9139CF826654BC00065FEF8 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		A9139CFB26654C660065FEF8 /* Example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +130,9 @@
 				A9139CCB266541B00065FEF8 /* Example2 */,
 				A9139CD2266542EC0065FEF8 /* Example3 */,
 				A9139CD9266544A30065FEF8 /* Example4 */,
+				A9139CE0266546820065FEF8 /* Example5 */,
+				A9139CEA266547920065FEF8 /* Example6 */,
+				A9139CF726654B970065FEF8 /* Example7 */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -180,6 +213,37 @@
 				A9139CDA266544E80065FEF8 /* Example4.swift */,
 			);
 			path = Example4;
+			sourceTree = "<group>";
+		};
+		A9139CE0266546820065FEF8 /* Example5 */ = {
+			isa = PBXGroup;
+			children = (
+				A9139CE1266546A70065FEF8 /* ClockTime.swift */,
+				A9139CDD2665467E0065FEF8 /* ClockShape.swift */,
+				A9139CE4266547270065FEF8 /* Example5.swift */,
+			);
+			path = Example5;
+			sourceTree = "<group>";
+		};
+		A9139CEA266547920065FEF8 /* Example6 */ = {
+			isa = PBXGroup;
+			children = (
+				A9139CE72665478D0065FEF8 /* PetalShape.swift */,
+				A9139CEB266548CD0065FEF8 /* FlowerColor.swift */,
+				A9139CEE266549620065FEF8 /* FlowerView.swift */,
+				A9139CF126654A050065FEF8 /* Example6.swift */,
+			);
+			path = Example6;
+			sourceTree = "<group>";
+		};
+		A9139CF726654B970065FEF8 /* Example7 */ = {
+			isa = PBXGroup;
+			children = (
+				A9139CF426654B920065FEF8 /* SkewedOffset.swift */,
+				A9139CF826654BC00065FEF8 /* LabelView.swift */,
+				A9139CFB26654C660065FEF8 /* Example7.swift */,
+			);
+			path = Example7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,16 +346,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9139CAA26653C1D0065FEF8 /* ContentView.swift in Sources */,
+				A9139CE2266546A70065FEF8 /* ClockTime.swift in Sources */,
+				A9139CF926654BC00065FEF8 /* LabelView.swift in Sources */,
+				A9139CE82665478D0065FEF8 /* PetalShape.swift in Sources */,
+				A9139CF526654B920065FEF8 /* SkewedOffset.swift in Sources */,
 				A9139CDB266544E80065FEF8 /* Example4.swift in Sources */,
+				A9139CDE2665467E0065FEF8 /* ClockShape.swift in Sources */,
 				A9139CC9266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
 				A9139CA826653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
+				A9139CF226654A050065FEF8 /* Example6.swift in Sources */,
+				A9139CEF266549620065FEF8 /* FlowerView.swift in Sources */,
 				A9139CB726653C730065FEF8 /* MyButton.swift in Sources */,
 				A9139CC4266540580065FEF8 /* View+OperatingSystem.swift in Sources */,
 				A9139CC126653D920065FEF8 /* Example1.swift in Sources */,
+				A9139CFC26654C660065FEF8 /* Example7.swift in Sources */,
 				A9139CBA26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139CD0266542E50065FEF8 /* Example3PolygonShape.swift in Sources */,
 				A9139CD72665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
+				A9139CEC266548CD0065FEF8 /* FlowerColor.swift in Sources */,
 				A9139CD42665443B0065FEF8 /* Example3.swift in Sources */,
+				A9139CE5266547270065FEF8 /* Example5.swift in Sources */,
 				A9139CCD2665423A0065FEF8 /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,16 +375,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9139CAB26653C1D0065FEF8 /* ContentView.swift in Sources */,
+				A9139CE3266546A70065FEF8 /* ClockTime.swift in Sources */,
+				A9139CFA26654BC00065FEF8 /* LabelView.swift in Sources */,
+				A9139CE92665478D0065FEF8 /* PetalShape.swift in Sources */,
+				A9139CF626654B920065FEF8 /* SkewedOffset.swift in Sources */,
 				A9139CDC266544E80065FEF8 /* Example4.swift in Sources */,
+				A9139CDF2665467E0065FEF8 /* ClockShape.swift in Sources */,
 				A9139CCA266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
 				A9139CA926653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
+				A9139CF326654A050065FEF8 /* Example6.swift in Sources */,
+				A9139CF0266549620065FEF8 /* FlowerView.swift in Sources */,
 				A9139CB826653C730065FEF8 /* MyButton.swift in Sources */,
 				A9139CC5266540580065FEF8 /* View+OperatingSystem.swift in Sources */,
 				A9139CC226653D920065FEF8 /* Example1.swift in Sources */,
+				A9139CFD26654C660065FEF8 /* Example7.swift in Sources */,
 				A9139CBB26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139CD1266542E50065FEF8 /* Example3PolygonShape.swift in Sources */,
 				A9139CD82665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
+				A9139CED266548CD0065FEF8 /* FlowerColor.swift in Sources */,
 				A9139CD52665443B0065FEF8 /* Example3.swift in Sources */,
+				A9139CE6266547270065FEF8 /* Example5.swift in Sources */,
 				A9139CCE2665423A0065FEF8 /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

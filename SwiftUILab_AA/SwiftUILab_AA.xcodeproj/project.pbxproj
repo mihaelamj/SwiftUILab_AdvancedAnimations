@@ -111,6 +111,8 @@
 		A9139D5826655F3F0065FEF8 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */; };
 		A9139D5A266565FD0065FEF8 /* SwiftUILabApp.png in Resources */ = {isa = PBXBuildFile; fileRef = A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */; };
 		A9139D5B266565FD0065FEF8 /* SwiftUILabApp.png in Resources */ = {isa = PBXBuildFile; fileRef = A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */; };
+		A9139D5E266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5D266569C40065FEF8 /* SwiftUILab_AAApp.swift */; };
+		A9139D5F266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139D5D266569C40065FEF8 /* SwiftUILab_AAApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +173,7 @@
 		A9139D5326655B6D0065FEF8 /* String+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Title.swift"; sourceTree = "<group>"; };
 		A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
 		A9139D59266565FD0065FEF8 /* SwiftUILabApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftUILabApp.png; sourceTree = "<group>"; };
+		A9139D5D266569C40065FEF8 /* SwiftUILab_AAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_AAApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,7 @@
 		A9139C9426653C1B0065FEF8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A9139D5D266569C40065FEF8 /* SwiftUILab_AAApp.swift */,
 				A9139C9626653C1B0065FEF8 /* ContentView.swift */,
 				A9139D5626655F3F0065FEF8 /* MainNavigationView.swift */,
 				A9139C9726653C1D0065FEF8 /* Assets.xcassets */,
@@ -570,6 +574,7 @@
 				A9139D0326654D440065FEF8 /* FlipEffect.swift in Sources */,
 				A9139CEC266548CD0065FEF8 /* FlowerColor.swift in Sources */,
 				A9139CD42665443B0065FEF8 /* Example3.swift in Sources */,
+				A9139D5E266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CE5266547270065FEF8 /* Example5.swift in Sources */,
 				A9139CCD2665423A0065FEF8 /* Example2.swift in Sources */,
 			);
@@ -626,6 +631,7 @@
 				A9139D0426654D440065FEF8 /* FlipEffect.swift in Sources */,
 				A9139CED266548CD0065FEF8 /* FlowerColor.swift in Sources */,
 				A9139CD52665443B0065FEF8 /* Example3.swift in Sources */,
+				A9139D5F266569C40065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CE6266547270065FEF8 /* Example5.swift in Sources */,
 				A9139CCE2665423A0065FEF8 /* Example2.swift in Sources */,
 			);

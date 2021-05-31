@@ -47,7 +47,7 @@ struct Example1PolygonShape: Shape {
 }
 
 struct Example1PolygonShape_Previews: PreviewProvider {
-    static var previews: some View {
-      Example1PolygonShape(sides: 8)
-    }
+  static var previews: some View {
+    Example1PolygonShape(sides: 8)
+  }
 }

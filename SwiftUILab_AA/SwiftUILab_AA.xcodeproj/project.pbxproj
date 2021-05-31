@@ -29,6 +29,12 @@
 		A9139CCE2665423A0065FEF8 /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CCC2665423A0065FEF8 /* Example2.swift */; };
 		A9139CD0266542E50065FEF8 /* Example3PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CCF266542E50065FEF8 /* Example3PolygonShape.swift */; };
 		A9139CD1266542E50065FEF8 /* Example3PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CCF266542E50065FEF8 /* Example3PolygonShape.swift */; };
+		A9139CD42665443B0065FEF8 /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CD32665443B0065FEF8 /* Example3.swift */; };
+		A9139CD52665443B0065FEF8 /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CD32665443B0065FEF8 /* Example3.swift */; };
+		A9139CD72665449E0065FEF8 /* Example4PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */; };
+		A9139CD82665449E0065FEF8 /* Example4PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */; };
+		A9139CDB266544E80065FEF8 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDA266544E80065FEF8 /* Example4.swift */; };
+		A9139CDC266544E80065FEF8 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CDA266544E80065FEF8 /* Example4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,9 @@
 		A9139CC8266541AB0065FEF8 /* Example2PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2PolygonShape.swift; sourceTree = "<group>"; };
 		A9139CCC2665423A0065FEF8 /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
 		A9139CCF266542E50065FEF8 /* Example3PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3PolygonShape.swift; sourceTree = "<group>"; };
+		A9139CD32665443B0065FEF8 /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
+		A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4PolygonShape.swift; sourceTree = "<group>"; };
+		A9139CDA266544E80065FEF8 /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,7 @@
 				A9139CBC26653CBC0065FEF8 /* Example1 */,
 				A9139CCB266541B00065FEF8 /* Example2 */,
 				A9139CD2266542EC0065FEF8 /* Example3 */,
+				A9139CD9266544A30065FEF8 /* Example4 */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -158,8 +168,18 @@
 			isa = PBXGroup;
 			children = (
 				A9139CCF266542E50065FEF8 /* Example3PolygonShape.swift */,
+				A9139CD32665443B0065FEF8 /* Example3.swift */,
 			);
 			path = Example3;
+			sourceTree = "<group>";
+		};
+		A9139CD9266544A30065FEF8 /* Example4 */ = {
+			isa = PBXGroup;
+			children = (
+				A9139CD62665449E0065FEF8 /* Example4PolygonShape.swift */,
+				A9139CDA266544E80065FEF8 /* Example4.swift */,
+			);
+			path = Example4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9139CAA26653C1D0065FEF8 /* ContentView.swift in Sources */,
+				A9139CDB266544E80065FEF8 /* Example4.swift in Sources */,
 				A9139CC9266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
 				A9139CA826653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CB726653C730065FEF8 /* MyButton.swift in Sources */,
@@ -269,6 +290,8 @@
 				A9139CC126653D920065FEF8 /* Example1.swift in Sources */,
 				A9139CBA26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139CD0266542E50065FEF8 /* Example3PolygonShape.swift in Sources */,
+				A9139CD72665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
+				A9139CD42665443B0065FEF8 /* Example3.swift in Sources */,
 				A9139CCD2665423A0065FEF8 /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9139CAB26653C1D0065FEF8 /* ContentView.swift in Sources */,
+				A9139CDC266544E80065FEF8 /* Example4.swift in Sources */,
 				A9139CCA266541AB0065FEF8 /* Example2PolygonShape.swift in Sources */,
 				A9139CA926653C1D0065FEF8 /* SwiftUILab_AAApp.swift in Sources */,
 				A9139CB826653C730065FEF8 /* MyButton.swift in Sources */,
@@ -285,6 +309,8 @@
 				A9139CC226653D920065FEF8 /* Example1.swift in Sources */,
 				A9139CBB26653CB60065FEF8 /* Example1PolygonShape.swift in Sources */,
 				A9139CD1266542E50065FEF8 /* Example3PolygonShape.swift in Sources */,
+				A9139CD82665449E0065FEF8 /* Example4PolygonShape.swift in Sources */,
+				A9139CD52665443B0065FEF8 /* Example3.swift in Sources */,
 				A9139CCE2665423A0065FEF8 /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

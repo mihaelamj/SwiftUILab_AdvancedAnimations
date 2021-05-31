@@ -51,7 +51,7 @@ struct Example2: View {
 }
 
 struct Example2_Previews: PreviewProvider {
-    static var previews: some View {
-        Example2()
-    }
+  static var previews: some View {
+    Example2()
+  }
 }

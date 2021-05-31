@@ -1,5 +1,5 @@
 //
-//  Example3PolygonShape.swift
+//  Example4PolygonShape.swift
 //  SwiftUILab_AA
 //
 //  Created by Mihaela Mihaljevic Jakic on 31.05.2021..
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Example3PolygonShape: Shape {
+struct Example4PolygonShape: Shape {
   var sides: Double
   var scale: Double
   
@@ -30,11 +30,16 @@ struct Example3PolygonShape: Shape {
     
     let extra: Int = sides != Double(Int(sides)) ? 1 : 0
     
+    var vertex: [CGPoint] = []
+    
     for i in 0..<Int(sides) + extra {
+      
       let angle = (Double(i) * (360.0 / sides)) * (Double.pi / 180)
       
       // Calculate vertex
       let pt = CGPoint(x: c.x + CGFloat(cos(angle) * h), y: c.y + CGFloat(sin(angle) * h))
+      
+      vertex.append(pt)
       
       if i == 0 {
         path.move(to: pt) // move to first vertex
@@ -45,12 +50,27 @@ struct Example3PolygonShape: Shape {
     
     path.closeSubpath()
     
+    // Draw vertex-to-vertex lines
+    drawVertexLines(path: &path, vertex: vertex, n: 0)
+    
     return path
+  }
+  
+  func drawVertexLines(path: inout Path, vertex: [CGPoint], n: Int) {
+    
+    if (vertex.count - n) < 3 { return }
+    
+    for i in (n+2)..<min(n + (vertex.count-1), vertex.count) {
+      path.move(to: vertex[n])
+      path.addLine(to: vertex[i])
+    }
+    
+    drawVertexLines(path: &path, vertex: vertex, n: n+1)
   }
 }
 
-struct Example3PolygonShape_Previews: PreviewProvider {
+struct Example4PolygonShape_Previews: PreviewProvider {
   static var previews: some View {
-    Example3PolygonShape(sides: 8, scale: 1.3)
+    Example4PolygonShape(sides: 8, scale: 0.3)
   }
 }

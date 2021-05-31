@@ -3,27 +3,27 @@
 //  TransCalc
 //
 //  Created by Mihaela Mihaljevic Jakic on 09.05.2021..
-//
+//  Source: https://newbedev.com/in-swiftui-is-it-possible-to-use-a-modifier-only-for-a-certain-os-target
 
 import SwiftUI
 
 enum OperatingSystem {
-    case macOS
-    case iOS
-    case tvOS
-    case watchOS
-
-    #if os(macOS)
-    static let current = macOS
-    #elseif os(iOS)
-    static let current = iOS
-    #elseif os(tvOS)
-    static let current = tvOS
-    #elseif os(watchOS)
-    static let current = watchOS
-    #else
-    #error("Unsupported platform")
-    #endif
+  case macOS
+  case iOS
+  case tvOS
+  case watchOS
+  
+  #if os(macOS)
+  static let current = macOS
+  #elseif os(iOS)
+  static let current = iOS
+  #elseif os(tvOS)
+  static let current = tvOS
+  #elseif os(watchOS)
+  static let current = watchOS
+  #else
+  #error("Unsupported platform")
+  #endif
 }
 
 extension View {
@@ -42,17 +42,17 @@ extension View {
     }
     ```
     */
-    @ViewBuilder
-    func ifOS<Content: View>(
-        _ operatingSystems: OperatingSystem...,
-        modifier: (Self) -> Content
-    ) -> some View {
-        if operatingSystems.contains(OperatingSystem.current) {
-            modifier(self)
-        } else {
-            self
-        }
+  @ViewBuilder
+  func ifOS<Content: View>(
+    _ operatingSystems: OperatingSystem...,
+    modifier: (Self) -> Content
+  ) -> some View {
+    if operatingSystems.contains(OperatingSystem.current) {
+      modifier(self)
+    } else {
+      self
     }
+  }
 }
 
 extension View {
@@ -76,7 +76,7 @@ extension View {
     }
     ```
     */
-    func modify<T: View>(@ViewBuilder modifier: (Self) -> T) -> T {
-        modifier(self)
-    }
+  func modify<T: View>(@ViewBuilder modifier: (Self) -> T) -> T {
+    modifier(self)
+  }
 }

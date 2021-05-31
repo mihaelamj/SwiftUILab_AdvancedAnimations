@@ -53,7 +53,7 @@ struct Example2PolygonShape: Shape {
 }
 
 struct Example2PolygonShape_Previews: PreviewProvider {
-    static var previews: some View {
-      Example2PolygonShape(sides: 8)
-    }
+  static var previews: some View {
+    Example2PolygonShape(sides: 8)
+  }
 }

@@ -32,3 +32,11 @@ struct MyButton: View {
     })
   }
 }
+
+struct MyButton_Previews: PreviewProvider {
+  static var previews: some View {
+    MyButton(label: "MyButton", action: {
+      debugPrint("Tapped MyButton")
+    })
+  }
+}

@@ -15,9 +15,9 @@ struct ExampleView6: View {
       #if os(iOS)
       $0.navigationBarTitle(String.exampleTitle(5))
       #else
-      $0.navigationTitle(String.exampleTitle(5))
+      $0.padding(.bottom, 60)
       #endif
-    }
+    }.navigationTitle(String.exampleTitle(5))
     .padding(20)
   }
 }

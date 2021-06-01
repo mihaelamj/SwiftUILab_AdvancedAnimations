@@ -20,9 +20,9 @@ struct ExampleView8: View {
       #if os(iOS)
       $0.navigationBarTitle(String.exampleTitle(7))
       #else
-      $0.navigationTitle(String.exampleTitle(7))
+      $0.padding(.bottom, 60)
       #endif
-    }
+    }.navigationTitle(String.exampleTitle(7))
   }
 }
 

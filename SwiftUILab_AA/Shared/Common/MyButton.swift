@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MyButton: View {
   let label: String
-  var font: Font = .title
+  var font: Font = .title2
   var textColor: Color = .white
   let action: () -> ()
   

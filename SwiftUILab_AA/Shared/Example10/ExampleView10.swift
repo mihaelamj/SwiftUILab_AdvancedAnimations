@@ -26,11 +26,11 @@ struct ExampleView10: View {
       }
     } .modify {
       #if os(iOS)
-      $0.navigationBarTitle(String.exampleTitle(9))
+      $0.padding(.bottom, 50)
       #else
-      $0.navigationTitle(String.exampleTitle(9))
+      $0.padding(.bottom, 60)
       #endif
-    }
+    }.navigationTitle(String.exampleTitle(9))
   }
 }
 

@@ -26,7 +26,7 @@ struct ExampleView13: View {
           }
         }
         
-        MyButton(label: "87", font: .headline) {
+        MyButton(label: "23", font: .headline) {
           withAnimation(Animation.interpolatingSpring(mass: 0.1, stiffness: 1, damping: 0.4, initialVelocity: 0.8)) {
             self.number = 23
           }
@@ -42,11 +42,11 @@ struct ExampleView13: View {
     }.overlay(MovingCounterView(number: number))
     .modify {
       #if os(iOS)
-      $0.navigationBarTitle(String.exampleTitle(12))
+      $0.padding(.bottom, 50)
       #else
-      $0.navigationTitle(String.exampleTitle(12))
+      $0.padding(.bottom, 60)
       #endif
-    }
+    }.navigationTitle(String.exampleTitle(12))
   }
 }
 

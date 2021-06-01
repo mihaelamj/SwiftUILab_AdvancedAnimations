@@ -40,7 +40,7 @@ struct ExampleView2: View {
         }
       }.modify {
         #if os(iOS)
-        $0.navigationBarTitle(String.exampleTitle(1))
+        $0.padding(.bottom, 50)
         #else
         $0.padding(.bottom, 60)
         #endif

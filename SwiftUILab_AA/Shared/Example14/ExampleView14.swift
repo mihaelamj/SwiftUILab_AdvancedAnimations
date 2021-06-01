@@ -32,7 +32,7 @@ struct ExampleView14: View {
       Spacer()
     }.modify {
       #if os(iOS)
-      $0.navigationBarTitle(String.exampleTitle(13))
+      $0.padding(.bottom, 50)
       #else
       $0.padding(.bottom, 60)
       #endif

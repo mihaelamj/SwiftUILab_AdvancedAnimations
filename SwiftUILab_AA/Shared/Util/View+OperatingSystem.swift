@@ -6,7 +6,7 @@
 
 import SwiftUI
 
-enum OperatingSystem {
+public enum OperatingSystem {
   case macOS
   case iOS
   case tvOS
@@ -25,7 +25,7 @@ enum OperatingSystem {
   #endif
 }
 
-extension View {
+public extension View {
     /**
     Conditionally apply modifiers depending on the target operating system.
 
@@ -54,7 +54,7 @@ extension View {
   }
 }
 
-extension View {
+public extension View {
     /**
     Modify the view in a closure. This can be useful when you need to conditionally apply a modifier that is unavailable on certain platforms.
 
